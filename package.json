@@ -1,0 +1,32 @@
+{
+  "name": "basecamp",
+  "version": "1.0.0",
+  "description": "A custome start page ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -o css/ -w scss/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mickbeck/BaseCamp.git"
+  },
+  "keywords": [
+    "start",
+    "page",
+    "start",
+    "page",
+    "custom",
+    "Mike",
+    "Beckett"
+  ],
+  "author": "Mike Beckett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mickbeck/BaseCamp/issues"
+  },
+  "homepage": "https://github.com/mickbeck/BaseCamp#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
