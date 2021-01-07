@@ -85,7 +85,7 @@ display:flex;
     margin-top: 2%;
     padding: 1%;
     transition: 0.1s ease-out;
-    color: white;
+    color: white !important;
     &:hover{
         cursor: pointer;
         border-color: rgb(0, 0, 0) !important;
@@ -93,11 +93,13 @@ display:flex;
     }
 }
 ul{
-    color: white;
+    color: white !important;
     li{
         list-style-type:lower-greek;
+        color: white !important;
+
         a{
-            color: aqua;
+            color: aqua !important;
         }
     }
 }
