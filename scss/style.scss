@@ -79,7 +79,8 @@ display:flex;
 .input_box::placeholder{
     color: white;
 }
-.button{
+.button,button{
+    -webkit-appearance: none;
     width: 50%;
     margin:auto;
     margin-top: 2%;
