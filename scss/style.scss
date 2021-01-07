@@ -85,6 +85,7 @@ display:flex;
     margin-top: 2%;
     padding: 1%;
     transition: 0.1s ease-out;
+    color: white;
     &:hover{
         cursor: pointer;
         border-color: rgb(0, 0, 0) !important;
@@ -92,8 +93,12 @@ display:flex;
     }
 }
 ul{
+    color: white;
     li{
         list-style-type:lower-greek;
+        a{
+            color: aqua;
+        }
     }
 }
 .img-container{
