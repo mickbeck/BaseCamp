@@ -1,6 +1,6 @@
 *{
     box-sizing:border-box;
-    background-color: rgb(22, 22, 22)!important;
+    background-color: rgba(22, 22, 22, 0)!important;
 
 }
 html{
@@ -26,6 +26,10 @@ display:flex;
     flex-direction: column;
     width: 90%;
     box-shadow: 0px 0px 10px 1px rgb(69, 196, 255);
+
+    background: url("../3y2xpy2i0xy51.png");
+    background-size: cover;
+    background-position: center;
 }
 .search_box{
     width: 100%;
@@ -63,17 +67,19 @@ display:flex;
 .input_box{
     /* width: 100%; */
     border-color: red;
-    background-color:rgb(26, 26, 26);
+    background-color:rgba(26, 26, 26, 0.657) !important;
     border:1px solid rgb(58, 192, 255);
-    padding:1%;
+    padding:2%;
     margin:1%;
     margin: auto;
+    margin-top: 2%;
     box-sizing:border-box;
     flex: 1;
     width: 100%;
     color: white;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 1px black;
+    margin-top: 15vh;
 
 }
 .input_box::placeholder{
@@ -84,17 +90,25 @@ display:flex;
     width: 50%;
     margin:auto;
     margin-top: 2%;
+    margin-bottom: 2%;
     padding: 1%;
     transition: 0.1s ease-out;
-    color: white !important;
+    color: rgb(255, 255, 255) !important;
+    border: solid 1px rgb(185, 44, 44);
+    background-color:rgba(26, 26, 26, 0.657) !important;
+    border-color: rgb(81, 206, 255) !important;
+
+    border-radius: 5px;
     &:hover{
         cursor: pointer;
-        border-color: rgb(0, 0, 0) !important;
-        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+        border-color: rgb(81, 206, 255) !important;
+        background-color: rgba(0, 0, 0, 0.712) !important;
     }
 }
 ul{
     color: white !important;
+    margin: 0;
+    padding: 0;
     li{
         list-style-type:lower-greek;
         color: white !important;
@@ -108,6 +122,7 @@ ul{
     width: 100%;
     height: 300px;
     overflow: hidden;
+
 }
 img{
     width: 100%;    
@@ -124,4 +139,11 @@ display:flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    background-color: rgba(46, 46, 46, 0.431) !important;
+    padding: 2%;
+    padding-left: 4%;
+    box-shadow: 0px 0px 10px 0px black;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    border-radius: 5px;
 }
